@@ -1,0 +1,147 @@
+.feed__img > img {
+    width: 100%;
+}
+.feed{
+    margin-top: 30px;
+    border: solid 1px rgb(201, 201, 201);
+    padding: 10px;
+}
+.feed__up{
+    display: flex;
+    margin-top: 10px;
+}
+.feed__up__name{
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.feed__up__name > p {
+    margin: auto;
+    margin-left: 15px;
+}
+.feed__img__actions{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.feed__img__actions__reacts > i {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.feed__img__actions__savepost {
+    margin-right: 10px;
+}
+.feed__img__actions__savepost > i {
+    font-size: 25px;
+}
+.feed__down__like__count{
+    margin: auto;
+    margin-left: 5px;
+}
+.feed__down__bio{
+    display: flex;
+    margin: auto;
+}
+.feed__down__bio > h4 {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+.feed__down__bio > p {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.feed__down__comments{
+    margin: auto;
+    margin-left: 20px;
+    /* display: flex; */
+}
+.feed__down__comments > div {
+    display: flex;
+    /* margin: auto; */
+    margin-bottom: -20px;
+}
+.feed__down__comments > div > p  {
+    margin: auto;
+    margin-left: 20px;
+}
+.feed__down__comments > p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.feed__down__add__comment{
+    display: flex;
+    width: 100%;
+}
+.feed__down__add__comment__post > p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.feed__down__add__comment__post{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.feed__down__add__comment__emoji{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.feed__down__add__comment__emoji > input {
+    border: none;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+.feed__down__add__comment__emoji > i {
+    margin: auto;
+    margin-right: 10px;
+}
+.feed__down__add__comment{
+    width: 100%;
+}
+#heart {
+    transition: 0.5s;
+}
+.feed__down__add__comment__post{
+    margin: auto;
+}
+.dynamic__comments{
+    display: flex;
+    margin: auto;
+}
+.dynamic__comments > p {
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.showallcomments{
+    display: flex;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    color: rgb(49, 49, 49);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.showallcomments > p {
+    margin: auto;
+    margin-right: 0;
+}
+.date{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}

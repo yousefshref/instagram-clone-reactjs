@@ -1,0 +1,12 @@
+.login{
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+.login > button {
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(131, 131, 131);
+    padding: 10px;
+}

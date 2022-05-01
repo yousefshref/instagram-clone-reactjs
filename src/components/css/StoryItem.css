@@ -1,0 +1,11 @@
+.story__item{
+    margin: auto;
+}
+.story__item > p {
+    text-align: center;
+}
+.story__item > i {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}

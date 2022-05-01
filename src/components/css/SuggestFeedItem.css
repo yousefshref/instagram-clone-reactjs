@@ -1,0 +1,31 @@
+.all__suggestfeeditem{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.suggestfeeditem{
+    border: 1px solid rgb(201, 201, 201);
+    width: fit-content;
+    padding: 40px;
+}
+.suggestfeeditem__avatar {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+.suggestfeeditem__name{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.suggestfeeditem__follow__button{
+    text-align: center;
+}
+.suggestfeeditem__follow__button > button {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,104 @@
+.all_suggestsfeed{
+    width: 58.4%;
+    margin-top: -200px;
+}
+.suggestsfeed{
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    width: 64.3%;
+    margin-left: auto;
+}
+.suggestfeed__for__you{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 97%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestfeed__for__you > p {
+    font-size: 12px;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    color: #38abf7;
+}
+.suggestfeeditems{
+    display: flex;
+    overflow-x: hidden;scroll-behavior: smooth;
+}
+.buttons__left{
+    display: flex;
+    justify-content: space-between;
+}
+#rightt{
+    margin-right: 20px;
+}
+#leftt{
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+    #lefttt{
+        display: none;
+    }
+    #righttt{
+        display: none;
+    }
+    .all_suggestsfeed{
+        width: 90%;
+        margin: auto;
+        margin-right: 28px;
+    }
+    .suggestsfeed{
+        width: 100%;
+    }
+    .suggestfeeditems{
+        overflow-x: scroll;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    #lefttt{
+        display: none;
+    }
+    #righttt{
+        display: none;
+    }
+    .all_suggestsfeed{
+        width: 93.5%;
+        margin: auto;
+        margin-right: 28px;
+    }
+    .suggestsfeed{
+        width: 100%;
+    }
+    .suggestfeeditems{
+        overflow-x: scroll;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .all_suggestsfeed{
+        width: 60%;
+        margin-top: -200px;
+    }
+    .suggestsfeed{
+        width: 100%;
+    }
+    .suggestfeeditems{
+        overflow-x: scroll;
+    }
+    #righttt{
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgb(184, 184, 184);
+        color: white; 
+    }
+    #lefttt{
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgb(184, 184, 184);
+        color: white; 
+    }
+}

@@ -1,0 +1,13 @@
+.widget__down__item{
+    display: flex;
+    margin-top: 10px;
+}
+.widget__down__item__name > h4, .widget__down__item__name > p {
+    margin: auto;
+    margin-left: 20px;
+}
+.widget__down__item__Follow{
+    margin-left: auto;
+    color: #38abf7;
+    font-size: 12px;
+}
